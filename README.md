@@ -9,7 +9,10 @@ Si todavia no tienes el FrontEnd del proyecto, clonalo desde el siguiente reposi
 ## Configuración
 
 1. **Clona o descarga el archivo `.zip` de este repositorio**.
-    - En IntelliJ IDEA las dependencias se descargan al abrir el proyecto. Si en tu caso no se han instalado. Instala las dependencias del proyecto (usando maven) ejecutando alguno de estos comandos:
+    - Descarga las dependencias del proyecto:
+        - En IntelliJ IDEA las dependencias se descargan al abrir el proyecto. Entra en tu archivo pom.xml (o en cualquier archivo del proyecto) y checa si aparece un icono de maven dentro del archivo, puedes utilizarlo para recargar el proyecto (esto descargara las dependencias). 
+      
+        - O Instala las dependencias del proyecto (usando maven) ejecutando alguno de estos comandos desde la terminal:
 
          Solo descarga las dependencias:
          ```
@@ -68,10 +71,13 @@ Si todavia no tienes el FrontEnd del proyecto, clonalo desde el siguiente reposi
 ## Inicialización
 
 - **Inicializa el proyecto**.
+    - Puedes entrar al archivo principal del proyecto y ejecutar el método main del proyecto.
 
-    ```
-    mvn spring-boot:run
-    ```
+    - O ejecutar el siguiente comando desde la terminal:    
+
+        ```
+        mvn spring-boot:run
+        ```
 
 ## Documentación de API
 
