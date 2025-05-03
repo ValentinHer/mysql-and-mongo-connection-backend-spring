@@ -1,0 +1,20 @@
+spring.application.name=mysql-and-mongo-connection
+server.servlet.context-path=/api
+
+server.port=8060
+
+#-----JPA-MYSQL-----
+spring.datasource.url=jdbc:mysql://localhost:3306/db_practica    # Example: mysql://{host}:{port}/{database}
+spring.datasource.username=root
+spring.datasource.password=root
+spring.jpa.hibernate.ddl-auto=update
+
+#-----MongoDB-----
+# Example: mongodb://{user}:{password}@{host}:{port}/{database}
+spring.data.mongodb.uri=mongodb://mongoadmin:admin@localhost:27017/db_practica?authSource=admin
+
+#-----AWS-S3-----
+aws.bucket-name=   # Bucket name
+aws.access-key=    # User access key
+aws.secret-key=    # User secret access key
+aws.region=        # Bucket region
