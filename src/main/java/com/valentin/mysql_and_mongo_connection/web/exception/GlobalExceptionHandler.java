@@ -1,5 +1,6 @@
 package com.valentin.mysql_and_mongo_connection.web.exception;
 
+import com.valentin.mysql_and_mongo_connection.web.utils.ErrorResponse;
 import org.springframework.dao.DataAccessException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

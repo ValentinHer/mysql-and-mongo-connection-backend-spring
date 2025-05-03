@@ -1,4 +1,4 @@
-package com.valentin.mysql_and_mongo_connection.web.exception;
+package com.valentin.mysql_and_mongo_connection.web.utils;
 
 public class ErrorResponse {
 	private int status;
